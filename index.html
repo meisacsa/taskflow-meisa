@@ -856,7 +856,7 @@
         <button type="submit" class="btn btn-primary" style="width: 100%; padding: 12px; font-size: 14px;">Entrar</button>
       </form>
       <form id="form-register" onsubmit="manejarRegistro(event)" style="display: none;">
-        <div class="form-group"><label>Usuario</label><input type="text" id="register-username" placeholder="Ej: ruben.santos" required></div>
+        <div class="form-group"><label>Usuario</label><input type="text" id="register-username" placeholder="Ej: nombre.apellido" required></div>
         <div class="form-group"><label>Contraseña</label><input type="password" id="register-password" placeholder="Mínimo 6 caracteres" required minlength="6"></div>
         <div class="form-group"><label>Confirmar contraseña</label><input type="password" id="register-confirm-password" placeholder="Repite la contraseña" required minlength="6"></div>
         <button type="submit" class="btn btn-primary" style="width: 100%; padding: 12px; font-size: 14px; background: #8b5cf6;">Crear cuenta</button>
@@ -1013,7 +1013,7 @@
           </div>
           <div class="filter-group">
             <label>Depto:</label>
-            <select id="filtro-departamento" onchange="aplicarFiltros()"><option value="">Todos</option><option value="Almacén">Almacén</option><option value="Calidad">Calidad</option><option value="Compras">Compras</option><option value="Dirección">Dirección</option><option value="Producción">Producción</option><option value="Seguridad">Seguridad</option></select>
+            <select id="filtro-departamento" onchange="aplicarFiltros()"><option value="">Todos</option><option value="Almacén">Almacén</option><option value="Calidad">Calidad</option><option value="Compras">Compras</option><option value="Dirección">Dirección</option><option value="Oficina Técnica">Oficina Técnica</option><option value="Producción">Producción</option><option value="Seguridad">Seguridad</option></select>
           </div>
           <div class="filter-group" style="margin-left: auto;">
             <button id="btn-mis-tareas" onclick="toggleMisTareas()" class="btn btn-info">👤 Mis tareas</button>
